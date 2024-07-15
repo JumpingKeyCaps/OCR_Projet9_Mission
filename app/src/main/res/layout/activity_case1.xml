@@ -33,6 +33,7 @@
             android:id="@+id/removeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:contentDescription="@string/remove_button_content_description"
             android:src="@drawable/ic_remove"/>
 
@@ -49,6 +50,7 @@
             android:id="@+id/addButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:contentDescription="@string/add_button_content_description"
             android:src="@drawable/ic_add"/>
 
