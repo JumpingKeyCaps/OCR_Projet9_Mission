@@ -57,7 +57,10 @@ class Case1Activity : AppCompatActivity() {
      * Method to update the UI with the quantity of the product in the basket.
      * @param quantity The quantity of the product in the basket.
      */
-    private fun updateUIQuantity(quantity: Int){ binding.quantityText.text = "$quantity"}
+    private fun updateUIQuantity(quantity: Int){
+        binding.quantityText.text = "$quantity"
+        binding.quantityText.announceForAccessibility("$quantity")
+    }
 
 
 }
