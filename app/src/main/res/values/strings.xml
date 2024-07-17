@@ -6,13 +6,27 @@
     <string name="cas_1">Cas 1 :</string>
     <string name="impossible_d_avoir_une_quantit_n_gative">Impossible d\'avoir une quantité négative</string>
     <string name="cas_2">Cas 2 :</string>
-    <string name="cd_ajouter_aux_favoris">Ajouter aux favoris</string>
+    <string name="cd_ajouter_aux_favoris">Recette ajouter a vos favoris</string>
+    <string name="cd_retirer_des_favoris">Recette supprimer de vos favoris</string>
     <string name="ajouter">Ajouter</string>
     <string name="demo_cookie_text">Cookies au chocolat</string>
-    <string name="recette_ajout_au_panier">Recette ajoutée au panier</string>
+    <string name="recette_ajout_au_panier">Les ingredients necessaire a cette recette ont été ajouté dans votre panier.</string>
     <string name="cas_3">Cas 3 :</string>
     <string name="pseudo">Pseudonyme :</string>
     <string name="validate">Valider</string>
     <string name="demo_product_name">Nom du produit</string>
+
+    <string name="cd_favoris">Favoris</string>
+    <string name="action_favorite">ajouter la recette aux favoris</string>
+    <string name="action_unfavorite">supprimer la recette des Favoris</string>
+
+    <string name="cd_ajouter">pour ajouter a votre panier les ingredients de cette recette . </string>
+    <string name="cd_recipe_card">Recette de Cookie aux chocolat</string>
+
+
+
+    <string name="slow_mode_navigation_accessibility_announce">Vous utilisez desormais la navigation lente pour parcourir les recettes !</string>
+    <string name="fast_mode_navigation_accessibility_announce">Vous utilisez desormais la navigation rapide pour parcourir les recettes !</string>
+
 
 </resources>
