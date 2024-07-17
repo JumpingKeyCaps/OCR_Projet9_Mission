@@ -6,10 +6,11 @@
     <string name="cas_1">Cas 1 :</string>
     <string name="impossible_d_avoir_une_quantit_n_gative">Impossible d\'avoir une quantité négative</string>
     <string name="cas_2">Cas 2 :</string>
-    <string name="cd_ajouter_aux_favoris">Ajouter aux favoris</string>
+    <string name="cd_ajouter_aux_favoris">Recette ajouter a vos favoris</string>
+    <string name="cd_retirer_des_favoris">Recette supprimer de vos favoris</string>
     <string name="ajouter">Ajouter</string>
     <string name="demo_cookie_text">Cookies au chocolat</string>
-    <string name="recette_ajout_au_panier">Recette ajoutée au panier</string>
+    <string name="recette_ajout_au_panier">Les ingredients necessaire a cette recette ont été ajouté dans votre panier.</string>
     <string name="cas_3">Cas 3 :</string>
     <string name="pseudo">Pseudonyme :</string>
     <string name="validate">Valider</string>
@@ -17,5 +18,19 @@
     <string name="add_button_content_description">Augmenter la quantité de ce produit dans votre panier.</string>
     <string name="remove_button_content_description">Réduire la quantité de ce produit dans votre panier.</string>
 
+
+    <string name="cd_favoris">Favoris</string>
+    <string name="action_favorite">ajouter la recette aux favoris</string>
+    <string name="action_unfavorite">supprimer la recette des Favoris</string>
+    <string name="cd_ajouter">pour ajouter à votre panier les ingrédients de cette recette.</string>
+    <string name="cd_recipe_card">Recette de </string>
+    <string name="slow_mode_navigation_accessibility_announce">Vous utilisez désormais la navigation lente pour parcourir les recettes !</string>
+    <string name="fast_mode_navigation_accessibility_announce">Vous utilisez désormais la navigation rapide pour parcourir les recettes !</string>
+    <string name="cd_consult_recipe">Consulter les détails de cette recette.</string>
+    <string name="accessibility_action_fastmode">Mode navigation rapide</string>
+    <string name="accessibility_action_slowmode">Mode navigation lente</string>
+    <string name="accessibility_action_addfavorite">Ajouter à vos recettes favorites.</string>
+    <string name="accessibility_action_removefavorite">Supprimer de vos recettes favorites.</string>
+    <string name="accessibility_action_addtobasket">Ajouter les ingrédients de la recette dans le panier.</string>
 
 </resources>
