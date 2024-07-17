@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cas_1"
-        android:textSize="40sp"/>
-
+        android:importantForAccessibility="yes"
+        android:textSize="38sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,36 +22,42 @@
         android:background="@color/beige"
         android:minHeight="90dp"
         android:padding="4dp">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/demo_product_name"
-            android:textSize="60px"
+            android:textSize="24sp"
+            android:importantForAccessibility="yes"
             android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/removeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_remove"
-            />
+            android:minHeight="48dp"
+            android:contentDescription="@string/remove_button_content_description"
+            android:importantForAccessibility="yes"
+            android:src="@drawable/ic_remove"/>
 
         <TextView
             android:id="@+id/quantityText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="0"
-            android:textSize="60px"
+            android:importantForAccessibility="yes"
+            android:textSize="24sp"
             android:layout_margin="20dp"
             android:textColor="@color/gray400"/>
 
         <ImageButton
             android:id="@+id/addButton"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_add"
-            />
+            android:minHeight="48dp"
+            android:contentDescription="@string/add_button_content_description"
+            android:importantForAccessibility="yes"
+            android:src="@drawable/ic_add"/>
 
 
     </LinearLayout>
