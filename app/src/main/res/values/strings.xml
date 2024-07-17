@@ -19,14 +19,15 @@
     <string name="cd_favoris">Favoris</string>
     <string name="action_favorite">ajouter la recette aux favoris</string>
     <string name="action_unfavorite">supprimer la recette des Favoris</string>
-
-    <string name="cd_ajouter">pour ajouter a votre panier les ingredients de cette recette . </string>
-    <string name="cd_recipe_card">Recette de Cookie aux chocolat</string>
-
-
-
-    <string name="slow_mode_navigation_accessibility_announce">Vous utilisez desormais la navigation lente pour parcourir les recettes !</string>
-    <string name="fast_mode_navigation_accessibility_announce">Vous utilisez desormais la navigation rapide pour parcourir les recettes !</string>
-
+    <string name="cd_ajouter">pour ajouter à votre panier les ingrédients de cette recette.</string>
+    <string name="cd_recipe_card">Recette de </string>
+    <string name="slow_mode_navigation_accessibility_announce">Vous utilisez désormais la navigation lente pour parcourir les recettes !</string>
+    <string name="fast_mode_navigation_accessibility_announce">Vous utilisez désormais la navigation rapide pour parcourir les recettes !</string>
+    <string name="cd_consult_recipe">Consulter les détails de cette recette.</string>
+    <string name="accessibility_action_fastmode">Mode navigation rapide</string>
+    <string name="accessibility_action_slowmode">Mode navigation lente</string>
+    <string name="accessibility_action_addfavorite">Ajouter à vos recettes favorites.</string>
+    <string name="accessibility_action_removefavorite">Supprimer de vos recettes favorites.</string>
+    <string name="accessibility_action_addtobasket">Ajouter les ingrédients de la recette dans le panier.</string>
 
 </resources>
