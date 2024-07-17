@@ -15,7 +15,6 @@
         android:text="@string/cas_2"
         android:textSize="40sp"/>
 
-
     <androidx.cardview.widget.CardView
         android:importantForAccessibility="yes"
         android:id="@+id/recipeCard"
@@ -37,8 +36,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:scaleType="centerCrop"
-                />
+                android:scaleType="centerCrop"/>
 
             <ImageButton
                 android:importantForAccessibility="no"
@@ -50,8 +48,7 @@
                 app:layout_constraintTop_toTopOf="@id/productImage"
                 app:layout_constraintEnd_toEndOf="@id/productImage"
                 android:contentDescription="@string/cd_favoris"
-                android:padding="12dp"
-                />
+                android:padding="12dp"/>
 
             <TextView
                 android:importantForAccessibility="yes"
@@ -66,20 +63,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/productImage" />
 
-                <Button
-                    android:importantForAccessibility="no"
-                    android:id="@+id/addRecipeToBasket"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="@string/ajouter"
-                    android:drawableEnd="@drawable/ic_add"
-                    android:drawableTint="@color/white"
-                    app:layout_constraintTop_toBottomOf="@id/productTitle"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
+            <Button
+                android:importantForAccessibility="no"
+                android:id="@+id/addRecipeToBasket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/ajouter"
+                android:drawableEnd="@drawable/ic_add"
+                android:drawableTint="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/productTitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
-                    />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
