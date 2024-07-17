@@ -78,6 +78,8 @@ class Case2Activity : AppCompatActivity() {
         addAccessibilityAction(binding.recipeCard,AccessibilityAction.FAVORITEREMOVE)
         addAccessibilityAction(binding.recipeCard,AccessibilityAction.SLOWMODE)
         addAccessibilityAction(binding.recipeCard,AccessibilityAction.FASTMODE)
+        //set custom content description for the card
+        binding.recipeCard.contentDescription = "${getString(R.string.cd_recipe_card)} ${binding.productTitle.text}"
     }
 
 
@@ -99,35 +101,34 @@ class Case2Activity : AppCompatActivity() {
 
         when(action){
             AccessibilityAction.FASTMODE -> {
-                return ViewCompat.addAccessibilityAction(view, "Mode navigation rapide") { _, _ ->
+                return ViewCompat.addAccessibilityAction(view, getString(R.string.accessibility_action_fastmode)) { _, _ ->
                     accessibilityNavigationFastMode()
                     true
                 }
             }
             AccessibilityAction.SLOWMODE -> {
-                return ViewCompat.addAccessibilityAction(view, "Mode navigation lente") { _, _ ->
+                return ViewCompat.addAccessibilityAction(view, getString(R.string.accessibility_action_slowmode)) { _, _ ->
                     accessibilityNavigationSlowMode()
                     true
                 }
             }
 
             AccessibilityAction.FAVORITEADD -> {
-                return ViewCompat.addAccessibilityAction(view, "Ajouter a vos recettes favorites") { _, _ ->
+                return ViewCompat.addAccessibilityAction(view, getString(R.string.accessibility_action_addfavorite)) { _, _ ->
                     addRecipeToFavorites()
                     true
                 }
             }
 
             AccessibilityAction.FAVORITEREMOVE -> {
-                return ViewCompat.addAccessibilityAction( view,"Supprimer de vos recettes favorites",
-                ) { _, _ ->
+                return ViewCompat.addAccessibilityAction( view,getString(R.string.accessibility_action_removefavorite)) { _, _ ->
                     removeRecipeFromFavorites()
                     true
                 }
             }
 
             AccessibilityAction.ADDTOBASKET -> {
-                return ViewCompat.addAccessibilityAction(view,"Ajouter les ingredients de la recette dans le panier" ) { _, _ ->
+                return ViewCompat.addAccessibilityAction(view,getString(R.string.accessibility_action_addtobasket)) { _, _ ->
                     binding.addRecipeToBasket.performClick()
                     true
                 }
@@ -172,11 +173,11 @@ class Case2Activity : AppCompatActivity() {
             null
         )
 
-        //Action accessibility pour la card
+        //Action accessibility pour consulter la card
         ViewCompat.replaceAccessibilityAction(
             binding.recipeCard,
             AccessibilityActionCompat.ACTION_CLICK,
-            "consulter les details de cette recette.",
+            getString(R.string.cd_consult_recipe),
             null
         )
 
