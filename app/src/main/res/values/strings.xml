@@ -33,4 +33,11 @@
     <string name="accessibility_action_removefavorite">Supprimer de vos recettes favorites.</string>
     <string name="accessibility_action_addtobasket">Ajouter les ingrédients de la recette dans le panier.</string>
 
+
+    <string name="hint_pseudonyme_field">Veuillez saisir votre pseudonyme</string>
+    <string name="error_pseudonyme_field">Le pseudonyme est trop court.</string>
+    <string name="cd_formulaire_de_connexion">Cas 3: Formulaire de connexion</string>
+    <string name="cd_pseudonyme_title">Le pseudonyme que vous souhaiter utiliser pour vous connecter</string>
+    <string name="cd_valider_button">Valider le formulaire de connexion.</string>
+
 </resources>
