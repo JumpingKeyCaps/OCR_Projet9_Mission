@@ -7,4 +7,5 @@
     <color name="red400">#FFEF5350</color>
     <color name="green400">#FF66BB6A</color>
     <color name="graytxtinput">#FF767474</color>
+    <color name="graylight">#C1C1C1</color>
 </resources>
