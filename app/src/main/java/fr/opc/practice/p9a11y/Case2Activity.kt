@@ -14,7 +14,7 @@ import fr.opc.practice.p9a11y.databinding.ActivityCase2Binding
  */
 class Case2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityCase2Binding
-    private var isFavourite: Boolean = false
+    private var isFavourite: Boolean = true
 
 
     // [LIFE CYCLE] ------------------------------------------------------
