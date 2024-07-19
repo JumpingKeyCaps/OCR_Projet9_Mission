@@ -159,6 +159,9 @@ class Case2Activity : AppCompatActivity() {
     private fun removeAccessibilityAction(view: View, actionType: AccessibilityAction){
         // remove the action from the accessibility action map for the given action "type"
         ViewCompat.removeAccessibilityAction(view,accessibilityActionIds[actionType]?:0)
+        //remove the action from the map
+        accessibilityActionIds.remove(actionType)
+
     }
 
     /**
