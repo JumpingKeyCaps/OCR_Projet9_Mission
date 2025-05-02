@@ -50,7 +50,7 @@
         app:errorContentDescription="@string/error_pseudonyme_field"
         app:errorEnabled="true"
         app:helperTextEnabled="true"
-        app:hintTextColor="@color/gray400"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
@@ -63,8 +63,7 @@
             android:autofillHints="username"
             android:inputType="textPersonName"
             android:minWidth="350dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray400"/>
+            android:textColor="@color/black"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
